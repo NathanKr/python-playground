@@ -5,5 +5,4 @@ if 6 > 3:
 if 3 > 6:
   print("Three is greater than six!")
   print("inside if **")
-
 print("outside if")
