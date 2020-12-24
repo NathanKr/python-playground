@@ -14,10 +14,10 @@ vec1 = np.append(vec1,6)
 print("vec1 after np.append(vec1,6)",vec1)
 
 # create matrix from vector
-mat_vec1_transpose = np.array([vec1]).T # matrix 6x1
-mat_vec1 = np.array([vec1]) # matrix 1x6
+mat_vec1 = np.array([vec1]) # matrix 1x6 
+mat_vec1_transpose = mat_vec1.T # matrix 6x1
 
-print("vec1'*vec1",np.matmul(mat_vec1_transpose,mat_vec1))
+print("vec1'*vec1",np.matmul(mat_vec1_transpose,mat_vec1)) # 6 x 6
 
 # ************** handle matrix
 mat1 = np.array([[1 , 0] , [3 , 4]])
