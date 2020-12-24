@@ -31,3 +31,7 @@ print("np.matmul(mat1,mat2) : \n",np.matmul(mat1,mat2))
 
 # ----- transpose matrix
 print("mat1.T : \n",mat1.T)
+
+# ----- inverse matrix
+print("inverse mat1 \n",np.linalg.inv(mat1))
+print("mat1*inverse mat1 is identity\n",np.matmul(mat1,np.linalg.inv(mat1)))
