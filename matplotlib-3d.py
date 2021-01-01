@@ -5,15 +5,15 @@ from matplotlib.ticker import LinearLocator, FormatStrFormatter
 import numpy as np
 
 
-fig = plt.figure()
-ax = fig.gca(projection='3d')
+fig = plt.figure() # return matplotlib.figure.Figure instance
+ax = fig.gca(projection='3d') #Get current axes, creating one if necessary.
 
 # Make data.
-X = np.arange(-5, 5, 0.25)
-Y = np.arange(-5, 5, 0.25)
-X, Y = np.meshgrid(X, Y)
-R = np.sqrt(X**2 + Y**2)
-Z = np.sin(R)
+X = np.arange(-5, 5, 0.25) # shape (40,0)
+Y = np.arange(-5, 5, 0.25) # shape (40,0)
+X, Y = np.meshgrid(X, Y) # following the mesh X.shape is (40,40) and Y.shape is (40,40)
+R = np.sqrt(X**2 + Y**2) # R.shape is 40,40
+Z = np.sin(R) # R.shape is 40,40
 
 # Plot the surface.
 surf = ax.plot_surface(X, Y, Z, cmap=cm.coolwarm,
