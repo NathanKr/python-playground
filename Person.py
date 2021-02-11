@@ -7,5 +7,3 @@ class Person:
     print(self.firstname, self.lastname)
 
 
-p1 = Person("Nathan","Krasney")
-p1.printname()
