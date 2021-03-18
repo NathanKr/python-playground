@@ -9,7 +9,7 @@ for it in mylist:
 thistuple = ("apple", "banana", "cherry")
 print(thistuple[0]) # print apple
 
-(a, b, c) = thistuple # unpack tuple
+a, b, c = thistuple # unpack tuple
 print("a,b,c : ",a,b,c)
 
 # set
