@@ -1,4 +1,4 @@
 try:
-    raise Exception("some exception")
-except:
-    print('got an exception')
+    raise Exception("some exception !!")
+except Exception as e:
+    print(e)
