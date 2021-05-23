@@ -1,5 +1,5 @@
-from Person import Person
-from Student import Student
+from person import Person
+from student import Student
 
 p1 = Person("Nathan","Krasney")
 p1.printname()
