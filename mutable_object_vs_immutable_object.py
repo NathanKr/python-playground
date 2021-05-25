@@ -7,14 +7,14 @@
 #   - e.g. primitives like string , number
 
 
-# string is immutable 
+# string is an immutable object
 # thus on update a new object is created on new address which str_name point to
 str_name = 'Nathan'
 print(f'id(str_name) : {id(str_name)} , str_name : {str_name}')
 str_name = 'Krasney'
 print(f'id(str_name) : {id(str_name)} , str_name : {str_name}')
 
-# list is mutable
+# list is a mutable object
 # thus on update the same object and address is used
 list = [1,2,3]
 print(f'id(list) : {id(list)} , list : {list}')
