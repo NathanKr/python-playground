@@ -11,3 +11,6 @@ print(Color.RED)
 print(Color.RED == 1)     
 print(Color['RED'] == Color.RED)
 print(list(Color))
+
+for color in Color:
+     print(f'color : {color} , type(color) : {type(color)}')
