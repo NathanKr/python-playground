@@ -17,3 +17,5 @@ obj3 = Rectangle(10,20)
 print(obj1 == obj2) # out of the box == operator
 print(obj1 == obj3)
 print(obj1.compute_area())
+
+print(obj1) # out of the box __repr__
