@@ -8,7 +8,7 @@ id_foo1_before = id(foo1)
 foo1.num1 = 1
 id_foo1_after = id(foo1)
 if id_foo1_before == id_foo1_after:
-    print('Foo is mutable')
+    print('Foo is immutable')
 else:
-    print('Foo is immutable')        
+    print('Foo is mutable')        
 
